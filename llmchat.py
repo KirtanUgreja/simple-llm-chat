@@ -1,11 +1,6 @@
 from openai import OpenAI
-from dotenv import load_dotenv
-import os
 
-load_dotenv()  # load from .env file
-
-a4f_api_key = os.getenv("a4f_api_key_llm")
-a4f_base_url = "https://api.a4f.co/v1"
+a4f_base_url = "a4f_api_key"
 
 client = OpenAI(
     api_key=a4f_api_key,
