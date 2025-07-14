@@ -11,24 +11,17 @@ To get started, follow these steps:
    ```bash
    git clone https://github.com/KirtanUgreja/simple-llm-chat.git
    ```
-
-2. **Create and activate a virtual environment (recommended):**
-
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate      # For Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
+   
+2. **Install dependencies:**
 
    ```bash
-   pip install openai python-dotenv
+   pip install openai 
    ```
 
-4. **Create a `.env` file in the root directory:**
+3. **Insert your a4f api key**
 
-   ```env
-   a4f_api_key_llm=your_a4f_api_key_here
+   ```bash
+   a4f_api_key = "your_a4f_api_key_here"
    ```
 
 ## 🚀 Usage
